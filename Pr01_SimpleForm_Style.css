@@ -1,0 +1,44 @@
+#container{
+    margin: 0 auto;
+    width: 500px;
+    height: 280px;
+    background: #EEEEEE;
+    font-family: tahoma;
+    padding-left:10px;
+}
+#title{
+    font-size:20px;
+    font-weight: bold;
+    color: #214264;
+}
+#message{
+    font-size: 11px;
+    color:#B2B2B2;
+}
+#registrationForm, #signInForm{
+    display:inline-block;
+    width: 200px;
+    height:150px;
+    font-size:12px;
+    padding:10px;
+    vertical-align:text-top;
+    font-weight:bold;
+
+}
+#signInForm{
+    background:#234465;
+    color:white;
+}
+a{
+    color:white;
+    font-size:12px
+}
+input{
+    margin:5px;
+    font-size:10px;
+    padding:5px;
+
+}
+.textField{
+    color:#B2B2B2;
+}

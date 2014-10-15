@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Simple Form</title>
+        <link href="Pr01_SimpleForm_Style.css" type="text/css" rel="stylesheet">
+    </head>
+
+    <body>
+        <div id="container">
+            <p><span id="title">Enter the system</span></p>
+
+           <p> <span id="message">It's necessary to log in Your account in order to sign in for a course</span></p>
+            <div id="registrationForm">ARE YOU NEW? REGISTER
+                <form method="get" action="Problem01_SimpleForm.html"/>
+                    <input class=textField" type="text" name="username" value="User name"/>
+                <br>
+                    <input  class=textField" type="email" name="email" value="Email" required="true"/>
+                <br>
+                    <input class=textField" type="password" name="password" value="password" />
+                <br>
+                <input  class=textField" type="password" name="passwordRetype" value="Confirm password"/>
+                <br>
+                    <input type="submit" name="submit" value="Register">
+                </form>
+            </div>
+
+            <div id="signInForm">ALREADY A STUDENT? LOGIN
+                <form method="get" action="Problem01_SimpleForm.html">
+                    <input class=textField" type="text" name="user" value="User name"/>
+                <br>
+                    <input class=textField" type="password" name="pass" value="password" />
+                <br>
+                    <input type="checkbox" name="remember" value="yes" />Remember me?
+                    <input type="submit" name="log" value="Login">
+                    <a href="https://softuni.bg" alt="forgot password link">Forgot password</a>
+
+                </form>
+        </div>
+
+        </div>
+    </body>
+</html>
